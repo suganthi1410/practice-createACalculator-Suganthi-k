@@ -66,10 +66,14 @@ console.log("Rounded:", calculator.customRound(23.67891, 2));
 //Absolute value calculation
 console.log("Extra test cases")
 console.log("Absolute Value of 0:", calculator.absoluteValue(0));
+//Output: Absolute Value of 0: 0
 console.log("Absolute Value of -Infinity:", calculator.absoluteValue(-Infinity));
+//Output: Absolute Value of -Infinity: Infinity
 
 //Random number
 console.log("Random number (-125 - 100):", calculator.randomInt(-125,100));
+//Output: Random number (-125 - 100): -2
 
 //Custom rounding
 console.log("Rounded:", calculator.customRound(19.2368, 3));
+//Output: Rounded: 19.237
